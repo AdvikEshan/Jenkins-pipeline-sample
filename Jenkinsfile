@@ -1,21 +1,16 @@
 pipeline {
     agent any
-
     stages {
+        
         stage ('Compile Stage') {
-
             steps {
-
-                  echo "This is compile stage"
-                }
+                echo "This is compile stage"
             }
         }
 
         stage ('Testing Stage') {
-
             steps {
                 echo "This is test stage"
-                }
             }
         }
 
@@ -23,7 +18,6 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                 echo "This is deployment stage"
-                }
             }
         }
     }
