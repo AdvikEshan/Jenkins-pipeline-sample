@@ -12,6 +12,7 @@ pipeline {
         stage ('Testing Stage') {
             steps {
                 echo "This is test stage"
+		echo "This stage has also been changed"
             }
         }
 
