@@ -4,7 +4,8 @@ pipeline {
         
         stage ('Compile Stage') {
             steps {
-                echo "This is compile stage"
+                echo "file has been changed"
+		echo "This is compile stage"
             }
         }
 
